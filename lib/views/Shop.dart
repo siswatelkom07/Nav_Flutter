@@ -76,6 +76,21 @@ class Shop extends StatelessWidget {
               ],
             ),
           )
+          , Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(
+                decoration: InputDecoration(
+                  filled: true,
+                  fillColor: Color.fromARGB(255, 242, 242, 242),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(15),
+                    borderSide: BorderSide.none,
+                  ),
+                  hintText: "Search Product",
+                  prefixIcon: Icon(Icons.search),
+                ),
+              ),
+            ),
         ]))
          ,bottomNavigationBar: BottomAppBar(
   shape: CircularNotchedRectangle(), 

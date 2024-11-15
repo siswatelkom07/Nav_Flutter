@@ -67,7 +67,7 @@ class Profile extends StatelessWidget {
           ),
           child: Center(
             child: Text(
-              'Item 1',
+              'My photos',
               style: TextStyle(color: Colors.black),
             ),
           ),
@@ -83,7 +83,7 @@ class Profile extends StatelessWidget {
           ),
           child: Center(
             child: Text(
-              'Item 2',
+              '0 Coins',
               style: TextStyle(color: Colors.black),
             ),
           ),
@@ -101,7 +101,7 @@ class Profile extends StatelessWidget {
       ),
       child: Center(
         child: Text(
-          'Item 3',
+          'Edit profile',
           style: TextStyle(color: Colors.black),
         ),
       ),
@@ -116,7 +116,7 @@ class Profile extends StatelessWidget {
       ),
       child: Center(
         child: Text(
-          'Item 3',
+          'aditama.bisma@gmail.com',
           style: TextStyle(color: Colors.black),
         ),
       ),
@@ -131,7 +131,7 @@ class Profile extends StatelessWidget {
       ),
       child: Center(
         child: Text(
-          'Item 3-',
+          'Log out',
           style: TextStyle(color: Colors.black),
         ),
       ),
